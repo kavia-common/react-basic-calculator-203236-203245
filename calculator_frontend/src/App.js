@@ -13,13 +13,6 @@ function normalizeOperator(op) {
 }
 
 /**
- * Returns true if the character is one of the supported operators.
- */
-function isOperator(ch) {
-  return ch === '+' || ch === '-' || ch === '×' || ch === '÷';
-}
-
-/**
  * Formats a number-like string for display (no scientific notation, trims trailing zeros).
  */
 function formatNumberString(valueStr) {
